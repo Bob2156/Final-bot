@@ -1,0 +1,13 @@
+{
+  "name": "discord-fastify-bot",
+  "version": "1.0.0",
+  "description": "Discord bot using Fastify, deployed on Vercel",
+  "main": "api/index.js",
+  "scripts": {
+    "start": "fastify start index.js"
+  },
+  "dependencies": {
+    "fastify": "^4.19.1",
+    "tweetnacl": "^1.0.3"
+  }
+}
